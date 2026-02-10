@@ -1,15 +1,7 @@
 // ------------------ LOGIN CHECK ------------------
 let firebaseToken = null;
 
-(async function checkLogin() {
-  try {
-    firebaseToken = localStorage.getItem("tiang_token");
 
-    // Jika belum login → lempar ke login.html
-    if (!firebaseToken) {
-      window.location.replace("./login.html");
-      return;
-    }
   } catch (err) {
     console.warn("Token check dilewati:", err.message);
     // Jika error, tetap lanjut (tidak memblokir)
