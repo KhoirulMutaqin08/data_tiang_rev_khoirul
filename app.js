@@ -349,7 +349,7 @@ function generateKmlFromMatches(matches) {
       <name>TE</name>
       <description><![CDATA[
         ${nama}
-        T;E;7
+T;E;7
       ]]></description>
       <Point>
         <coordinates>${lng},${lat}</coordinates>
